@@ -1,0 +1,9 @@
+channels:
+  - anaconda
+dependencies:
+  - pandas
+  - numpy
+  - blpapi
+  - xbbg
+  - matplotlib
+ 
