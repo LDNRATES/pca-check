@@ -4,7 +4,7 @@ Created on Fri Mar  3 09:48:58 2023
 
 @author: a_deswal
 """
-
+import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -14,7 +14,7 @@ from datetime import datetime as dt
 #from datetime import timedelta as td
 from xbbg import blp
 import re
-import streamlit as st
+
 
 curves = pd.read_excel('C:\\BLP\\data\\pca.xlsx', index_col = 0)
 
